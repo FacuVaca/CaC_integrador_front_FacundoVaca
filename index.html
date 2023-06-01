@@ -5,9 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Simposio bootstrap</title>
+    <script src="js/main.js"></script>
     <link rel="stylesheet" href="./css/bootstrap.min.css" />
     <link rel="stylesheet" href="./css/Style.css ">
   </head>
+
+
   <body>
 
 
@@ -172,6 +175,102 @@
     </div>
 
 
+  
+ <div class="row justify-content-center mt-5 ">
+  <div id="Cardg1" class="card col-md-3 mb-3 me-3">
+    <div class="card-body">
+      <h5 class="card-title">Estudiante</h5>
+      <p class="card-text">Tiene un descuento</p>
+      <h5>80%</h5>
+      <p class="card-text"><small class="text-body-secondary">*Presentar documentación</small></p>
+    </div>
+  </div>
+  <div id="Cardg2" class="card col-md-3 mb-3 me-3">
+    <div class="card-body">
+      <h5 class="card-title">Trainee</h5>
+      <p class="card-text">Tiene un descuento</p>
+      <h5>50%</h5>
+      <p class="card-text"><small class="text-body-secondary">*Presentar documentación</small></p>
+    </div>
+  </div>
+  <div id="Cardg3" class="card col-md-3 mb-3">
+    <div class="card-body">
+      <h5 class="card-title">Junior</h5>
+      <p class="card-text">Tiene un descuento</p>
+      <h5>15%</h5>
+      <p class="card-text"><small class="text-body-secondary">*Presentar documentación</small></p>
+    </div>
+  </div>
+</div>
+
+
+
+<body>
+  <div class="container-fluid text-center w-50">
+    <p>VENTA</p>
+    <h1>VALOR DEL TICKET $200</h1>
+  </div>
+
+  <div class="container">
+    <div class="row justify-content-center mt-5">
+      <div class="col-md-6">
+        <form>
+          <div class="row mb-3">
+            <div class="col">
+              <label for="nombre"></label>
+              <input type="text" class="form-control" id="nombre" placeholder="Ingresa tu nombre">
+            </div>
+            <div class="col">
+              <label for="apellido"></label>
+              <input type="text" class="form-control" id="apellido" placeholder="Ingresa tu apellido">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="correo"></label>
+            <input type="email" class="form-control" id="correo" placeholder="Ingresa tu correo electrónico">
+          </div>
+
+
+ <div class="row mb-3 pt-3">
+          <div class="col">
+            <label for="cantidad">Cantidad</label>
+            <input type="text" class="form-control" id="cantidad" placeholder="Ingrese la cantidad">
+          </div>
+          <div class="col">
+            <label for="CategoriaTicket">Categoría</label>
+            <select class="form-control" id="CategoriaTicket">
+              <option value="Estudiante">Estudiante</option>
+              <option value="Trainee">Trainee</option>
+              <option value="Junior">Junior</option>
+            </select>
+          </div>
+        </div>
+
+           <div class="form-group mt-3">
+          <label for="outputTicket">Total a pagar</label>
+          <input type="text" class="form-control" id="outputTicket" readonly>
+        </div>
+       
+          <div class="row mt-3">
+            <div class="col">
+              <button type="button" class="  color-boton w-50 mx-auto d-block text-white p-3 border-0" id="btnResumen">Resumen</button>
+            </div>
+            <div class="col">
+              <button type="button" class="  color-boton w-50 mx-auto d-block text-white p-3 border-0" id="btnBorrar">Borrar</button>
+            </div>
+          </div>
+         
+        </form>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
+
+
+
+
+
 
     <!--foooter-->
 
@@ -193,7 +292,5 @@
       </div>
       </div>
     </div>
-  
-    <script src="./js/bootstrap.bundle.min.js"></script>
-  </body>
+
 </html>
