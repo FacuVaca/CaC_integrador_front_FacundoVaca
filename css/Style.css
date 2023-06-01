@@ -14,6 +14,12 @@
 
 .color-boton {
   background-color: rgb(150, 201, 62);
+  width: 50%;
+  display: block;
+  margin: auto;
+  padding: 0.75rem;
+  border: none;
+  border-radius: 50px;
 }
 
 .color_footer {
@@ -34,4 +40,16 @@ ul {
 
 .sinsub {
   text-decoration: none;
+}
+
+#Cardg1 {
+  border-color: blue;
+}
+
+#Cardg2 {
+  border-color: green;
+}
+
+#Cardg3 {
+  border-color: orange;
 }
